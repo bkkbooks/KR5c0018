@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5c0018/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0018/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上飛步五星經
+  date: '2015-08-29 00:16:44.765304'
+  source:
+    repository: kanripo
+    path: KR5c0018
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0018_000-ZTDZ.yaml, hash: 'sha256:f7204fa978a9dc3508418fc04bbab94700fca6bb0f39b65973d657d88357c265'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0018_000-ZTDZ.markers.yaml, hash: 'sha256:7705aacd600e8a5d4a3f808a314c7d22f0ae41b3261c99c438a52c21a2e2a8b0'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0018_SJB_000-110374a
+    span:
+    - body
+    - 0
+    - 2930
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:0829a686693013869c026a0d1f3193da016458a474b2ccd1ce8e582c4b813925
